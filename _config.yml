@@ -1,0 +1,8 @@
+# Github defaults
+safe: true
+lsi: false
+pygments: true
+
+# Local testing settings
+auto: true
+server: true

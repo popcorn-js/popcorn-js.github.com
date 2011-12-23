@@ -1,0 +1,52 @@
+body {
+  background-color: #D1D3D4;
+  border-top: 3px solid #333333;
+}
+
+.navbar ul {
+  text-align: center;
+}
+
+.navbar ul li {
+  display: inline;
+  line-height: 3em;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+}
+
+.navbar ul li a span {
+  padding: 1em;
+  color: #AAAAAA;
+}
+
+.navbar ul li a:hover span, .navbar ul li a.selected span {
+  padding: 1em;
+  background-color: #333333;
+  border-radius: 0 0 5px 5px;
+  box-shadow: 0 2px 2px #888888;
+  color: #FFFFFF;
+}
+
+.header {
+  text-align: center;
+}
+
+.header p {
+  font-style: italic;
+  color: #666666;
+}
+
+footer {
+  background-color: #333333;
+  border-top: 3px solid #222222;
+  padding: 30px 0 50px;
+  text-align: center;
+  color: #666666;
+}
+
+footer a, footer a:hover {
+  color: #FFFFFF;
+  text-decoration: none;
+}
